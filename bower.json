@@ -1,0 +1,10 @@
+{
+    "name": "Puzzlify",
+    "version": "0.0.1",
+    "main": "dist/puzzlify.min.js",
+    "dependencies": {
+        "jquery": "1.x.x",
+        "requirejs": "latest",
+        "knockout.js": "latest"
+    }
+}

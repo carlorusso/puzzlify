@@ -9,14 +9,15 @@ Prerequisites are:
 - RequireJS
 
 You can use it with the following call:
-var image = 'file.png', dest = $('#my-div'), numRow = 5, numCol = 5, pieces = [];
-require(['puzzlify'], function(Puzzlify) {
-    var puzzlify = new Puzzlify(image, dest.width(), dest.height(), numRow, numCol, function(array) {
+
+    var image = 'file.png', dest = $('#my-div'), numRow = 5, numCol = 5, pieces = [];
+    require(['puzzlify'], function(Puzzlify) {
+        var puzzlify = new Puzzlify(image, dest.width(), dest.height(), numRow, numCol, function(array) {
             pieces = array;
         });
         
-    puzzlify.createPuzzle();
-});
+        puzzlify.createPuzzle();
+    });
 
 ##License
 
